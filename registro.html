@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Registro - Vivero Raíz</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+   
+<header>
+
+    <p>VIVERO RAÍZ - DESDE 1998</p>
+
+    <nav class="menu-navegacion">
+        <a class="boton-comun" href="index.html">INICIO</a> 
+        <a class="boton-comun" href="catalogo.html">CATÁLOGO</a>
+        <a class="boton-comun" href="nosotros.html">NOSOTROS</a>
+        <a class="boton-comun" href="contacto.html">CONTACTO</a>
+        <a class="boton-ingresar" href="login.html">INGRESAR</a>
+    </nav>
+
+</header> 
+
+<main>
+
+<section class="login" >
+ 
+<div class="login-presentacion">
+
+  <h1>VIVERO RAÍZ</h1>
+  <p>GESTIÓN DE CATÁLOGO</p>  
+
+  <h2>Sumate al equipo.</h2>
+  <p class="descripcion-presentacion">Creá tu cuenta para cargar plantas, editar fichas y ver el movimiento del catálogo.</p>
+
+</div>
+
+<div class="registro-formulario">
+<h1>Crear Cuenta</h1>
+
+<p class="descripcion-login"> 
+  Los campos marcados con * son obligatorios.
+</p>       
+
+<form>
+
+<fieldset>
+
+  <legend>DATOS PERSONALES</legend>
+
+<div class="fila-registro">
+    <div class="campo-registro">
+        <label for="nombre">NOMBRE *</label>
+        <input type="text" id="nombre" name="nombre" placeholder="">
+    </div>
+
+    <div class="campo-registro">
+        <label for="apellido">APELLIDO *</label>
+        <input type="text" id="apellido" name="apellido" placeholder="">
+    </div>
+</div>
+
+<div class="fila-registro">
+    <div class="campo-registro">
+        <label for="fecha">FECHA DE NACIMIENTO</label>
+        <input type="date" id="fecha" name="fecha" placeholder="">
+    </div>
+
+    <div class="campo-registro">
+        <label for="telefono">TELÉFONO *</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="">
+    </div>
+</div>
+
+</fieldset>
+
+<fieldset>
+
+    <legend>DATOS DE LA CUENTA</legend>
+    <div class="campo-registro campo-ancho">
+        <label for="correo">CORREO ELECTRÓNICO *</label>
+        <input type="email"id="correo" name="correo" placeholder="">
+    </div>
+
+    <div class="fila-registro">
+    <div class="campo-registro">
+        <label for="contrasena">CONTRASEÑA *</label>
+        <input type="password" id="contrasena" name="contrasena">
+    </div>
+
+     <div class="campo-registro">
+        <label for="repetir-contrasena">REPETIR CONTRASEÑA *</label>
+        <input type="password" id="repetir-contrasena" name="repetir_contrasena">
+        <p class="ayuda-registro">Mínimo 8 caracteres</p>
+    </div>
+
+    </div>
+
+    <div class="campo-registro campo-ancho">
+        <label for="rol">ROL EN EL VIVERO *</label>
+        <select id="rol" name="rol">
+                <option>Elegí una opción</option>
+                <option>Staff</option>
+                <option>Supervisor</option>
+                <option>Otros</option>
+        </select>
+    </div>
+
+    </fieldset>
+
+<div class="opciones-registro">
+ <div class="check-registro">
+    <input type="checkbox" id="terminos" name="terminos" value="si">
+    <label for="terminos">Acepto los</label>
+    <a href="#" class="enlace-registro">Términos y condiciones</a>          
+</div>  
+
+<div class="check-registro">
+    <input type="checkbox" id="novedades" name="novedades" value="si">
+    <label for="novedades">Quiero recibir novedades del vivero.</label>
+</div>
+</div>
+
+<button type="submit" class="boton-registro">CREAR CUENTA</button>
+
+<div class="ingreso-registro">
+<p>¿Ya tenés cuenta?</p>
+<a href="login.html" class="enlace-registro">Ingresá</a>
+</div>
+
+</form>
+ 
+</div>
+
+ </section>
+
+  </main>
+
+<footer>
+  <div class="contenedor">
+    <div><h2>Vivero Raíz</h2><address>Ruta 25 km 4.5<br>Escobar, Buenos Aires<br>(011) 4444-5566</address></div>
+    <div><h3>Secciones</h3><ul><li><a href="catalogo.html">Catálogo</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="login.html">Ingresar</a></li></ul></div>
+    <div><h3>Horarios</h3><p>Lunes a viernes de 9 a 18<br>Sábados de 9 a 13<br>Domingos cerrado</p></div>
+  </div>
+  <p class="copyright">© 2026 Vivero Raíz — Trabajo Práctico Integrador</p>
+</footer>
+
+</body>
+</html>

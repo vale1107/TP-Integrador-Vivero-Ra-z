@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contacto - Vivero Raíz</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+   
+<header>
+
+    <p>VIVERO RAÍZ - DESDE 1998</p>
+
+    <nav class="menu-navegacion">  
+            <a class="boton-comun" href="index.html">INICIO</a>
+            <a class="boton-comun" href="catalogo.html">CATÁLOGO</a>
+            <a class="boton-comun" href="nosotros.html">NOSOTROS</a>
+            <a class="boton-comun" href="contacto.html">CONTACTO</a>
+            <a class="boton-ingresar" href="login.html">INGRESAR</a>
+    </nav>
+
+</header> 
+
+<main>
+
+<section class="contacto">
+<div class="contenedor">
+<h1>Contacto</h1>
+<p class="descripcion-contacto"> 
+  Escribinos por encargos, envíos o asesoramiento. Respondemos dentro de las 48 horas hábiles.
+</p>       
+
+<div class="contacto-grid">
+
+<form>
+ 
+   <div class="formulario-grid">
+        <label for="nombre">NOMBRE Y APELLIDO *</label>
+        <input type="text" id="nombre" name="nombre" placeholder="">
+    </div>
+
+    <div class="formulario-grid">
+        <label for="correo">CORREO ELECTRÓNICO *</label>
+        <input type="email" id="correo" name="correo" placeholder="">
+    </div>
+
+    <div class="formulario-grid">
+        <label for="telefono">TELÉFONO *</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="">
+    </div>
+
+   
+ <div class="formulario-grid">
+        <label for="motivo">MOTIVO *</label>
+        <select id="motivo" name="motivo">
+                <option>Elegí un motivo</option>
+                <option>Consulta</option>
+                <option>Presupuesto</option>
+                <option>Otros</option>
+        </select>
+    </div>
+
+     <div class="campo-mensaje">
+        <label for="mensaje">MENSAJE *</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="100" placeholder="Escribí tu mensaje aquí..."></textarea>   
+      </div>
+    
+    <div class="check-novedades">
+        <input type="checkbox" id="novedades" name="novedades" value="si">
+        <label for="novedades">Quiero recibir las novedades del vivero</label>
+    </div>
+    
+<button type="submit" class="boton-enviar">ENVIAR CONSULTA</button>
+
+</form>
+ 
+<aside class="informacion-contacto">
+<h2>DÓNDE ESTAMOS</h2>
+<p>Ruta 25 km 4.5 - Escobar, Buenos Aires</p>
+<p>(011) 4444-5566 hola@viveroraiz.com</p>
+
+<h2>HORARIOS DE ATENCIÓN</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>DÍA</th>
+      <th>HORARIO</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Lunes a viernes</td>
+      <td>9 a 18</td>
+    </tr>
+
+    <tr>
+      <td>Sábados</td>
+      <td>9 a 13</td>
+    </tr>
+
+    <tr>
+      <td>Domingos</td>
+      <td>Cerrado</td>
+    </tr>
+
+</tbody>
+
+</table>
+
+  <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.6320022315513!2d-58.80348362446947!3d-34.359842673042685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb5d85f80f2727%3A0x240f9a5a292e1f4d!2sRuta%2025%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1791157127795!5m2!1ses-419!2sar" 
+    width="1500" height="145" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+  </div>
+
+</aside>
+ 
+</div>
+
+  </div>
+
+ </section>
+
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <div>
+        <h2>Vivero Raíz</h2>
+        <address>
+          Ruta 25 km 4.5<br>
+          Escobar, Buenos Aires<br>
+          (011) 4444-5566
+        </address>
+      </div>
+      <div>
+        <h3>Secciones</h3>
+        <ul>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="index.html#nosotros">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="login.html">Ingresar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Horarios</h3>
+        <p>Lunes a viernes de 9 a 18<br>
+        Sábados de 9 a 13<br>
+        Domingos cerrado</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Vivero Raíz — Trabajo Práctico Integrador</p>
+  </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Loguin - Vivero Raíz</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+   
+<header>
+
+    <p>VIVERO RAÍZ - DESDE 1998</p>
+
+    <nav class="menu-navegacion">  
+        <a class="boton-comun" href="index.html">INICIO</a>
+        <a class="boton-comun" href="catalogo.html">CATÁLOGO</a>
+        <a class="boton-comun" href="nosotros.html">NOSOTROS</a>
+        <a class="boton-comun" href="contacto.html">CONTACTO</a>
+        <a class="boton-ingresar" href="login.html">INGRESAR</a>
+    </nav>
+
+</header> 
+
+<main>
+
+<section class="login" >
+
+    
+<div class="login-presentacion">
+
+  <h1>VIVERO RAÍZ</h1>
+  <p>GESTIÓN DE CATÁLOGO</p>  
+
+  <h2>Todo lo que crece, ordenado.</h2>
+  <p class="descripcion-presentacion">Cargá tus plantas, actualizá precios y stock, y llevá el vivero desde una sola pantalla.</p>
+
+</div>
+
+
+<div class="login-formulario">
+<h1>Ingresar</h1>
+
+<p class="descripcion-login"> 
+  Usá la cuenta que te dió el vivero.
+</p>       
+
+<form>
+ 
+    <div class="campo-login">
+        <label for="correo">CORREO ELECTRÓNICO *</label>
+        <input type="email"id="correo" name="correo">
+        <p>Ejemplo: nombre@viveroraiz.com</p>
+    </div>
+
+    <div class="campo-login">
+        <label for="contrasena">CONTRASEÑA *</label>
+        <input type="password" id="contrasena" name="contrasena">
+    </div>
+    
+    <div class="check-novedades">
+        <input type="checkbox" id="sesion" name="sesion" value="si">
+        <label for="sesion">Mantener sesión abierta</label>
+    </div>
+    
+<button type="submit" class="boton-login">INGRESAR</button>
+
+<a href="#" class="reset-pass">¿Olvidaste tu contraseña?</a>
+
+<div class="contenedor-flex">
+<h2>¿No tenés cuenta?</h2>
+<a href="registro.html" class="reset-pass">Registrate</a>
+</div>
+
+</form>
+ 
+</div>
+
+
+ </section>
+
+  </main>
+
+<footer>
+  <div class="contenedor">
+    <div>
+      <h2>Vivero Raíz</h2>
+      <address>Ruta 25 km 4.5<br>Escobar, Buenos Aires<br>(011) 4444-5566</address>
+    </div>
+    <div>
+      <h3>Secciones</h3>
+      <ul>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="login.html">Ingresar</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Horarios</h3>
+      <p>Lunes a viernes de 9 a 18<br>Sábados de 9 a 13<br>Domingos cerrado</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Vivero Raíz — Trabajo Práctico Integrador</p>
+</footer>
+
+</body>
+</html>
