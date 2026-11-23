@@ -26,7 +26,7 @@ botonCerrarSesion.addEventListener("click", function(event) {
     if (localStorage.getItem("sesionActiva") === "true") {
         localStorage.removeItem("sesionActiva");
         localStorage.removeItem("correoUsuario");
-
+        localStorage.removeItem("nombreUsuario");
         window.location.href = "login.html";
     }
 });
